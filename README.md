@@ -9,3 +9,5 @@ https://github.com/mozilla/geckodriver/releases
 
 3. Unzip geckodriver and put it in to the following folder:
 ./Anaconda/Scripts
+
+DO NOT RUN GUI ON VIRTUAL MACHINE!
