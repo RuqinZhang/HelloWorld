@@ -11,6 +11,7 @@ https://github.com/mozilla/geckodriver/releases
 ./Anaconda/Scripts
 
   DO NOT RUN GUI ON VIRTUAL MACHINE!
+  
   GUI testing process:
 1. Run gui.ipynb
 2. Enter the product name in the first entry, click Earch button.
