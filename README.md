@@ -44,7 +44,9 @@ https://github.com/mozilla/geckodriver/releases
 DO NOT RUN GUI ON VIRTUAL MACHINE!
 
 **Part 3- Subscribe Sales Email**
-The searching history in GUI will be recorded in **"Searching_log.txt"**.
+
+The searching history in GUI will be recorded in **"Searching_log.txt"**
+
 We run **"Email_sender.ipynb"** daily and notify the users. 
 
 ## Guide for test
