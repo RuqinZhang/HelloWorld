@@ -25,12 +25,12 @@ Installation:
 
 1. Install selenium package
 
-```sh
-pip install selenium
-```
+   ```sh
+   pip install selenium
+   ```
 
 2. Make sure you have Firefox browser and download geckodriver from the following links:
-https://github.com/mozilla/geckodriver/releases
+   https://github.com/mozilla/geckodriver/releases
 
 3. Unzip geckodriver and put it into the following folder:  
 ./Anaconda/Scripts
@@ -52,24 +52,38 @@ The searching history in GUI will be recorded in **"Searching_log.txt"**
 We run **"Email_sender.ipynb"** daily and notify the users. 
 
 ## Guide for test
+
 1. Install relevant packages:
 
-``pandas`` >= 0.23.4
+   ``pandas`` >= 0.23.4
 
-``csv`` >= 1.0
+   ``csv`` >= 1.0
 
-``bs4`` >= 4.6.0
+   ``bs4`` >= 4.6.0
 
-``selenium`` >= 3.141.0
+   ``selenium`` >= 3.141.0
 
-``urllib``
+   ``urllib``
 
-``tkinter``
+   ``tkinter``
 
-``sys``
-2. Run Hmart.ipynb, Seasons.ipynb, Westside.ipynb
-(Output: Hmart_allgroceries.csv, Seasons_allgroceries.csv, Westside_allgroceries.csv)
-3. Run read_data.ipynb 
-4. Run gui.ipynb and test GUI( Enter the product name in the first entry, click Search button.
- Click Price button to sort by price and Sale button to sort by sale.  Enter your email address and click "Confirm Email and Subscribe" button.  Close GUI.)
-5. Run Email_sender.ipynb to send subscribers emails
+   ``sys``
+2. Run ``Hmart.ipynb``, ``Seasons.ipynb``, ``Westside.ipynb``
+
+   Output: ``Hmart_allgroceries.csv``, ``Seasons_allgroceries.csv``, ``Westside_allgroceries.csv``
+
+3. Run ``read_data.ipynb`` 
+
+4. Run ``gui.ipynb`` and test GUI
+
+   Enter the product name in the first entry, click Search button.
+   
+   Click Price button to sort by price and Sale button to sort by sale.  
+   
+   Enter your email address and click "Confirm Email and Subscribe" button.  
+   
+   Close GUI.
+   
+   Automatically create ``Searching_log.txt``, record the subscriber and search history.
+ 
+5. Run ``Email_sender.ipynb`` to send subscribers emails
