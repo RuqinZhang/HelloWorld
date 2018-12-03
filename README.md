@@ -25,7 +25,7 @@ The source code is currently available on GitHub at: https://github.com/RuqinZha
 
 **Part 1- Prepare for Web Crawler**
 
-Installation:
+   Installation:
 
 1. Install selenium package
 
@@ -37,34 +37,35 @@ Installation:
    https://github.com/mozilla/geckodriver/releases
 
 3. Unzip geckodriver and put it into the following folder:  
-./Anaconda/Scripts
-
+   ```sh
+   ./Anaconda/Scripts
+   ```
+   
    **NOTE**: 
    This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named
    ``All_groceries``.
 
 **Part 2 - Use our GUI!**
-
-  GUI testing process:
+   GUI testing process:
 1. Run ``gui.ipynb``
 2. Enter the product name in the first entry, click Search button.
 3. Click Price button to sort by price and Sale button to sort by sale.
 4. Enter your email address and click "Confirm Email and Subscribe" button.
 5. Close GUI. 
 
-**DO NOT RUN GUI ON VIRTUAL MACHINE!**
+   **DO NOT RUN GUI ON VIRTUAL MACHINE!**
 
 **Part 3- Subscribe Sales Email**
 
-The searching history in GUI will be recorded in ``Searching_log.txt``
+   The searching history in GUI will be recorded in ``Searching_log.txt``
 
-We run ``Email_sender.ipynb`` daily and notify the users. 
+   We run ``Email_sender.ipynb`` daily and notify the users. 
 
 ## Guide for test
 
 1. Install relevant packages:
 
-   ``pandas``>= 0.23.4   ``csv``>= 1.0   ``bs4``>= 4.6.0  ``selenium``>= 3.141.0  ``urllib``  ``tkinter``  ``sys``
+   ``pandas``>= 0.23.4   ``csv``>= 1.0   ``bs4``>= 4.6.0  ``selenium``>= 3.141.0  ``urllib``  ``tkinter``  ``sys``  ``smtplib``
    
 2. Run ``Hmart.ipynb``, ``Seasons.ipynb``, ``Westside.ipynb``
 
