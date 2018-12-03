@@ -5,3 +5,6 @@ selenium >= 3.141.0
 urllib
 tkinter
 sys
+smtplib
+
+Firefox Web Browser
