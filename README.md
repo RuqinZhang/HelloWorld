@@ -4,6 +4,9 @@
 **Price Comparison Tool** is a program which compares the prices of the same product
 in different shops near Columbia University, and dispalys a list of prices,sales information and image link to the buyer. It helps the buyer to decide on the best place to buy the product. Besides, this program also offers the function of sending discount information via E-mail.
 
+## Who are we?
+
+We are HelloWorld group from Tools for Analytics section 2. 
 
 ## Main Features
 
@@ -14,7 +17,7 @@ The final result is presented in the form of GUI. Users run gui.ipynb, enter the
 
 **Discount reminder**: When users leave their E-mail address in our GUI, they will be automatically notified if there is discount on the products they searched.
 
-## Where to get it
+## Where to get it?
 The source code is currently hosted on GitHub at: https://github.com/RuqinZhang/HelloWorld.git
 
 
