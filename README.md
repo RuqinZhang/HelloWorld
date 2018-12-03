@@ -37,7 +37,7 @@ Installation:
 
 **Part 2 - Use our GUI!**
   GUI testing process:
-1. Run gui.ipynb
+1. Run ``gui.ipynb``
 2. Enter the product name in the first entry, click Search button.
 3. Click Price button to sort by price and Sale button to sort by sale.
 4. Enter your email address and click "Confirm Email and Subscribe" button.
@@ -47,27 +47,16 @@ Installation:
 
 **Part 3- Subscribe Sales Email**
 
-The searching history in GUI will be recorded in **"Searching_log.txt"**
+The searching history in GUI will be recorded in ``Searching_log.txt``
 
-We run **"Email_sender.ipynb"** daily and notify the users. 
+We run ``Email_sender.ipynb`` daily and notify the users. 
 
 ## Guide for test
 
 1. Install relevant packages:
 
-   ``pandas`` >= 0.23.4
-
-   ``csv`` >= 1.0
-
-   ``bs4`` >= 4.6.0
-
-   ``selenium`` >= 3.141.0
-
-   ``urllib``
-
-   ``tkinter``
-
-   ``sys``
+   ``pandas`` >= 0.23.4  ``csv`` >= 1.0   ``bs4`` >= 4.6.0  ``selenium`` >= 3.141.0  ``urllib``  ``tkinter``  ``sys``
+   
 2. Run ``Hmart.ipynb``, ``Seasons.ipynb``, ``Westside.ipynb``
 
    Output: ``Hmart_allgroceries.csv``, ``Seasons_allgroceries.csv``, ``Westside_allgroceries.csv``
