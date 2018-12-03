@@ -35,8 +35,9 @@ Installation:
 3. Unzip geckodriver and put it into the following folder:  
 ./Anaconda/Scripts
 
-**NOTE**: 
-This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named All_groceries.
+   **NOTE**: 
+   This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named
+   All_groceries.
 
 **Part 2 - Use our GUI!**
 
