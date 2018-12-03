@@ -36,6 +36,7 @@ Installation:
 ./Anaconda/Scripts
 
 **Part 2 - Use our GUI!**
+
   GUI testing process:
 1. Run ``gui.ipynb``
 2. Enter the product name in the first entry, click Search button.
