@@ -6,7 +6,7 @@ in different shops near Columbia University, and dispalys a list of prices, sale
 
 ## Who are we?
 
-We are HelloWorld group from Tools for Analytics section 2. 
+We are **HelloWorld** group from Tools for Analytics section **2**. 
 
 ## Main Features
 
