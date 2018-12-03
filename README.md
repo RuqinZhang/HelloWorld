@@ -55,7 +55,7 @@ We run ``Email_sender.ipynb`` daily and notify the users.
 
 1. Install relevant packages:
 
-   ``pandas`` >= 0.23.4  ``csv`` >= 1.0   ``bs4`` >= 4.6.0  ``selenium`` >= 3.141.0  ``urllib``  ``tkinter``  ``sys``
+   ``pandas``>= 0.23.4   ``csv``>= 1.0   ``bs4``>= 4.6.0  ``selenium``>= 3.141.0  ``urllib``  ``tkinter``  ``sys``
    
 2. Run ``Hmart.ipynb``, ``Seasons.ipynb``, ``Westside.ipynb``
 
