@@ -1,0 +1,6 @@
+Target: de,ffe@gmail.com
+Email: ffe@gmail.com,
+Target: apple,fe@gmail.com
+Email: fe@gmail.com,
+Target: cake,ffdfe@gmail.com
+Email: ffdfe@gmail.com,
