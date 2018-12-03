@@ -35,7 +35,12 @@ Installation:
 3. Unzip geckodriver and put it into the following folder:  
 ./Anaconda/Scripts
 
+   **NOTE**: 
+   This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named
+   All_groceries.
+
 **Part 2 - Use our GUI!**
+
   GUI testing process:
 1. Run ``gui.ipynb``
 2. Enter the product name in the first entry, click Search button.
@@ -59,6 +64,8 @@ We run ``Email_sender.ipynb`` daily and notify the users.
    
 2. Run ``Hmart.ipynb``, ``Seasons.ipynb``, ``Westside.ipynb``
 
+   (Refer to part 1 in User's Guide in order to successfully run the last two files.)
+
    Output: ``Hmart_allgroceries.csv``, ``Seasons_allgroceries.csv``, ``Westside_allgroceries.csv``
 
 3. Run ``read_data.ipynb`` 
@@ -76,3 +83,9 @@ We run ``Email_sender.ipynb`` daily and notify the users.
    Automatically create ``Searching_log.txt``, record the subscriber and search history.
  
 5. Run ``Email_sender.ipynb`` to send subscribers emails
+
+   **NOTE**: 
+   Since this repository is public, we did not include our email information in this file.
+   The tester should log in with his or her own google email and password. To log in on this program, you should first open the 2-step
+   verification for your google account and generate an app specific password. See the following helper link.
+   https://support.google.com/accounts/answer/185839?hl=en&ref_topic=2954345
