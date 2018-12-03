@@ -48,11 +48,15 @@ The source code is currently available on GitHub at: https://github.com/RuqinZha
 **Part 2 - Use our GUI!**
 
    GUI testing process:
+   
+   Please STRICTLY follow the following steps.
 1. Run ``gui.ipynb``
-2. Enter the product name in the first entry, click Search button.
-3. Click Price button to sort by price and Sale button to sort by sale.
-4. Enter your email address and click "Confirm Email and Subscribe" button.
-5. Close GUI. 
+2. Enter the product name in the first entry
+3. Enter your email address in the second entry
+4. Click Search button 
+5. Click "Confirm Email and Subscribe" button.
+6. Click ``price`` button to sort by price and ``sale`` button to sort by sale.
+7. Close GUI. 
 
    **DO NOT RUN GUI ON VIRTUAL MACHINE!**
 
