@@ -84,7 +84,6 @@ We run ``Email_sender.ipynb`` daily and notify the users.
 5. Run ``Email_sender.ipynb`` to send subscribers emails
 
 **NOTE**: 
-
 Since this repository is public, we did not include our email information in this file.
 The tester should log in with his or her own google email and password. To log in on this program, you should first open the 2-step verification for your google account and generate an app specific password. See the following helper link.
 https://support.google.com/accounts/answer/185839?hl=en&ref_topic=2954345
