@@ -35,7 +35,8 @@ Installation:
 3. Unzip geckodriver and put it into the following folder:  
 ./Anaconda/Scripts
 
-##NOTE: This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named All_groceries.
+## NOTE: 
+This guide is for users who want to run the program weekly to update prices, or else, we have an integrated result file named All_groceries.
 
 **Part 2 - Use our GUI!**
 
@@ -81,6 +82,7 @@ We run ``Email_sender.ipynb`` daily and notify the users.
    Automatically create ``Searching_log.txt``, record the subscriber and search history.
  
 5. Run ``Email_sender.ipynb`` to send subscribers emails
-##Note: Since this repository is public, we did not include our email information in this file.
+## Note: 
+Since this repository is public, we did not include our email information in this file.
 The tester should log in with his or her own google email and password. To log in on this program, you should first open the 2-step verification for your google account and generate an app specific password. See the following helper link.
 https://support.google.com/accounts/answer/185839?hl=en&ref_topic=2954345
