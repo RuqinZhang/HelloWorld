@@ -1,18 +1,16 @@
 # Price Comparison Tool: Find your favorite snacks near Columbia University!
 ## What is it?
 
-**Price Comparison Tool** is a program which can compare the prices of the same product
-in different shops and show a list of prices to the buyer. It gives the buyer
-a choice to decide which is the best place to buy the product. Apart from the 
-price comparison function, we also offer the function of reminding discount information.
+**Price Comparison Tool** is a program which compares the prices of the same product
+in different shops near Columbia University, and dispalys a list of prices to the buyer. It helps the buyer to decide on the best place to buy the product. Besides, this program also offers the function of sending discount information via E-mail.
 
 
 ## Main Features
 
-**Crawler**: We collect groceries information from Hmart, Westside and Seasons near Columbia Unversity and output a csv file.
+**Crawler**: Grocery information of H-mart, Westside Market and SeasonsKosher (typical shops near Columbia Unversity) was crawled and exported to a csv file.
 
 **Price comparison**: 
-The final result is presented in form of GUI. Users run gui.ipynb and enter the product they want and sort by price or sale information.
+The final result is presented in form of GUI. Users run gui.ipynb, enter the product they want, and sort by price or sale information.
 
 **Discount reminder**: When users leave their email address in our GUI, they will be automatically notified if there is discount on the products they searched.
 
@@ -31,7 +29,7 @@ pip install selenium
 2. Make sure you have Firefox browser and download geckodriver from the following links:
 https://github.com/mozilla/geckodriver/releases
 
-3. Unzip geckodriver and put it in to the following folder:
+3. Unzip geckodriver and put it into the following folder:
 ./Anaconda/Scripts
 
 **Part 2 - Use our GUI!**
@@ -64,4 +62,3 @@ sys
 4. Run gui.ipynb and test GUI( Enter the product name in the first entry, click Search button.
  Click Price button to sort by price and Sale button to sort by sale.  Enter your email address and click "Confirm Email and Subscribe" button.  Close GUI.)
 5. Run Email_sender.ipynb to send subscribers emails
-
