@@ -24,12 +24,15 @@ The source code is currently hosted on GitHub at: https://github.com/RuqinZhang/
 Installation:
 
 1. Install selenium package
+
+```sh
 pip install selenium
+```
 
 2. Make sure you have Firefox browser and download geckodriver from the following links:
 https://github.com/mozilla/geckodriver/releases
 
-3. Unzip geckodriver and put it into the following folder:
+3. Unzip geckodriver and put it into the following folder:  
 ./Anaconda/Scripts
 
 **Part 2 - Use our GUI!**
@@ -39,7 +42,8 @@ https://github.com/mozilla/geckodriver/releases
 3. Click Price button to sort by price and Sale button to sort by sale.
 4. Enter your email address and click "Confirm Email and Subscribe" button.
 5. Close GUI. 
-DO NOT RUN GUI ON VIRTUAL MACHINE!
+
+**DO NOT RUN GUI ON VIRTUAL MACHINE!**
 
 **Part 3- Subscribe Sales Email**
 
@@ -49,13 +53,20 @@ We run **"Email_sender.ipynb"** daily and notify the users.
 
 ## Guide for test
 1. Install relevant packages:
-pandas >= 0.23.4
-csv >= 1.0
-bs4 >= 4.6.0
-selenium >= 3.141.0
-urllib
-tkinter
-sys
+
+``pandas`` >= 0.23.4
+
+``csv`` >= 1.0
+
+``bs4`` >= 4.6.0
+
+``selenium`` >= 3.141.0
+
+``urllib``
+
+``tkinter``
+
+``sys``
 2. Run Hmart.ipynb, Seasons.ipynb, Westside.ipynb
 (Output: Hmart_allgroceries.csv, Seasons_allgroceries.csv, Westside_allgroceries.csv)
 3. Run read_data.ipynb 
